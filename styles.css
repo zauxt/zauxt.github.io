@@ -12,6 +12,26 @@ h2 {
     color: black;
 }
 
+.about {
+    background-color: black;
+    padding: 5px
+}
+
+.skills {
+    background-color: black;
+    padding: 5px
+}
+
+.projects {
+    background-color: black;
+    padding: 5px
+}
+
+.contact {
+    background-color: black;
+    padding: 5px
+}
+
 strong {
     display: inline-block;
     width: 250px;

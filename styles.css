@@ -1,0 +1,20 @@
+body {
+    background: salmon;
+    font-family: Lucida Handwriting, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+strong {
+    display: inline-block;
+    width: 250px;
+    border: 5px solid #000;
+    text-align: center;
+}

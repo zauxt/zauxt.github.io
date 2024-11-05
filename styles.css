@@ -1,35 +1,11 @@
 body {
     background: salmon;
-    font-family: Lucida Handwriting, Helvetica, sans-serif;
+    font-family: Lucida Handwriting, Helvetica, Times, sans-serif;
     text-align: center;
 }
 
 h2 {
     color: black;
-}
-
-h2 {
-    color: black;
-}
-
-.about {
-    background-color: black;
-    padding: 5px
-}
-
-.skills {
-    background-color: black;
-    padding: 5px
-}
-
-.projects {
-    background-color: black;
-    padding: 5px
-}
-
-.contact {
-    background-color: black;
-    padding: 5px
 }
 
 strong {
@@ -37,4 +13,39 @@ strong {
     width: 250px;
     border: 5px solid #000;
     text-align: center;
+}
+
+.about {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 350px;
+    margin-left: 350px;
+    justify-content: center;
+    background-color: white;
+    padding: 5px
+}
+
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
+.about img {
+    width: 150px;
+    height: 200px;
+    border: 5px solid blue;
+}
+
+.skills {
+    background-color: black;
+}
+
+.projects {
+    background-color: black;
+}
+
+.contact {
+    background-color: black;
 }

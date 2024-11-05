@@ -39,13 +39,13 @@ strong {
 }
 
 .skills {
-    background-color: black;
+    display: none;
 }
 
 .projects {
-    background-color: black;
+    display: none;
 }
 
 .contact {
-    background-color: black;
+    display: none;
 }

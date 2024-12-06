@@ -1,25 +1,26 @@
 body {
-    background: salmon;
+    background: #3EB489;
     font-family: Lucida Handwriting, Helvetica, Times, sans-serif;
     text-align: center;
 }
 
 h2 {
-    color: black;
+    color: white;
 }
 
 strong {
     display: inline-block;
     width: 250px;
-    border: 5px solid #000;
+    border: 5px solid white;
     text-align: center;
+    color: white
 }
 
 .about {
     display:flex;
     flex-wrap:wrap;
-    margin-right: 350px;
-    margin-left: 350px;
+    margin-right: 550px;
+    margin-left: 550px;
     justify-content: center;
     background-color: white;
     padding: 5px
@@ -35,17 +36,60 @@ strong {
 .about img {
     width: 150px;
     height: 200px;
-    border: 5px solid blue;
+    border: 5px solid #3EB489;
 }
 
 .skills {
-    display: none;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 725px;
+    justify-content: center;
 }
 
 .projects {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    width: 30%;
+    margin: 15px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #3EB489;
 }
 
 .contact {
-    display: none;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 800px;
+    justify-content: center;
+}
+
+a:link {
+    color: #3EB489
+}
+
+a:visited {
+    color: #3EB489
 }

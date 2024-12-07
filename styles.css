@@ -19,7 +19,7 @@ strong {
 .about {
     display:flex;
     flex-wrap:wrap;
-    margin: 10px 300px
+    margin: 10px 300px;
     justify-content: center;
     background-color: white;
     padding: 5px
@@ -43,7 +43,7 @@ strong {
     padding: 5px;
     background-color: white;
     border-radius: 15px;
-    margin: 10px 300px
+    margin: 10px 300px;
     justify-content: center;
 }
 
@@ -81,7 +81,7 @@ strong {
     padding: 5px;
     background-color: white;
     border-radius: 15px;
-    margin: 10px 300px
+    margin: 10px 300px;
     justify-content: center;
 }
 

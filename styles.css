@@ -67,23 +67,23 @@ strong {
 }
 
 .img {
-    max-width: 500px;
-    max-height: 500px;
-    height: auto;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
-    border: 5px solid #3EB489;
-}
-
-.contact {
-    max-width: 90%;
+max-width: 90%;
     height: auto;
     border-radius: 10px;
     object-fit: contain;
     display: block;
     margin: 0 auto;
     padding: 10px;
+    border: 5px solid #3EB489;
+}
+
+.contact {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 300px;
+    justify-content: center;
 }
 
 a:link {
